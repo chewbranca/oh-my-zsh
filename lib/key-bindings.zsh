@@ -1,6 +1,4 @@
 # TODO: Explain what some of this does..
-autoload -U compinit
-compinit -i
 
 bindkey -v
 bindkey '\ew' kill-region
