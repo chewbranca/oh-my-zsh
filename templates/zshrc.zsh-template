@@ -33,3 +33,4 @@ plugins=(git ssh-agent vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+export NNTPSERVER="news.gmane.org"
