@@ -18,7 +18,8 @@ alias history='fc -l 1'
 alias lsa='ls -lah'
 alias l='ls -la'
 alias ll='ls -l'
-alias sl=ls # often screw this up
+# NO: apt-get install sl
+#alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
