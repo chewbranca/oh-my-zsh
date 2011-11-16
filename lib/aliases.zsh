@@ -18,8 +18,13 @@ alias history='fc -l 1'
 alias lsa='ls -lah'
 alias l='ls -la'
 alias ll='ls -l'
-alias sl=ls # often screw this up
+# NO: apt-get install sl
+#alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
 alias x=extract
+
+alias enable-monitor="xrandr --output LVDS1 --auto --output VGA1 --auto --same-as LVDS1"
+#alias enable-monitor="xrandr --output LVDS1 --off --output VGA1 --auto"
+alias disable-monitor="xrandr --output LVDS1 --auto --output VGA1 --off"
