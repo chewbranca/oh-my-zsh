@@ -8,3 +8,6 @@ alias tmux="/usr/local/bin/tmux -2"
 alias tamacs="tmux attach -t emacs"
 alias ta="tmux attach"
 alias pbcopy="xclip -selection clipboard "
+function pskill() {
+	ps aux | awk "/$1/ { print \$2 }" | xargs kill
+}
