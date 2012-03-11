@@ -11,3 +11,9 @@ alias pbcopy="xclip -selection clipboard "
 function pskill() {
 	ps aux | awk "/$1/ { print \$2 }" | xargs kill
 }
+
+alias x=extract
+
+alias enable-monitor="xrandr --output LVDS1 --auto --output VGA1 --auto --same-as LVDS1"
+#alias enable-monitor="xrandr --output LVDS1 --off --output VGA1 --auto"
+alias disable-monitor="xrandr --output LVDS1 --auto --output VGA1 --off"
