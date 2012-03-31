@@ -5,13 +5,18 @@ export EDITOR=vim
 
 #export PATH=$HOME/bin:$PATH
 
-export PATH=$HOME/bin:/opt/emacs-install/emacs/bin:$PATH
+export PATH=$HOME/bin:/opt/emacs-install/emacs/bin:$HOME/.gem/ruby/1.9.1/bin:$PATH
+
+# Virtualenv(wrapper) settings
+export WORKON_HOME=~/Envs
+source /usr/bin/virtualenvwrapper.sh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-export ZSH_THEME="candy"
+#export ZSH_THEME="candy"
+export ZSH_THEME="nebirhos"
 
 # Load rvm
 [[ -s "/usr/local/rvm/scripts/rvm" ]] && source "/usr/local/rvm/scripts/rvm"
